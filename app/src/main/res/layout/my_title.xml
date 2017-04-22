@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.dreamheart.autoscalinglayout.ASLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/title_bg"
+    custom:designWidth="1080px"
+    custom:designHeight="128px"
+    custom:autoScaleEnable="true"
+    custom:autoScaleType="fitInside"
+    android:layout_height="128px"
+    android:layout_width="match_parent">
+
+    <Button
+        android:layout_width="144px"
+        android:layout_height="124px"
+        android:id="@+id/title_back_btn"
+        android:background="@drawable/myback_bt"/>
+
+    <TextView
+        android:layout_width="780px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="14px"
+        android:gravity="center"
+        android:text="迪腾智能扫地机"
+        android:textColor="@color/white"
+        android:textSize="50px"/>
+    <Button
+        android:layout_width="142px"
+        android:layout_height="128px"
+        android:background="@drawable/mybutton_setting"
+        android:id="@+id/title_select_btn"/>
+</me.dreamheart.autoscalinglayout.ASLinearLayout>

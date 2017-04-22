@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fadingEdge="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="20dp"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+        
+		
+		<!-- text(扩展可写) -->
+		 <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="1dp"
+				android:background="@color/white"
+				android:padding="10dp" >
+		 
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_centerVertical="true"
+					android:text="text" />
+				
+				<EditText
+					android:id="@+id/et_extend_text"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:background="#EEEEEE"
+					android:digits="0123456789abcdefABCDEF"
+					android:gravity="start"
+					android:imeOptions="actionDone"
+					android:inputType="textUri|textMultiLine"
+					android:minLines="3" />
+		</RelativeLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="4">
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="button1"
+		android:id="@+id/button1"
+		android:layout_weight="1"/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="button2"
+			android:id="@+id/button2"
+			android:layout_weight="1"/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="button3"
+			android:id="@+id/button3"
+			android:layout_weight="1"/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="button4"
+			android:id="@+id/button4"
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="button5"
+			android:id="@+id/button5"
+			android:layout_weight="1"/>
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="button6"
+			android:id="@+id/button6"
+			android:layout_weight="1"/>
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="button7"
+			android:id="@+id/button7"
+			android:layout_weight="1"/>
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="button8"
+			android:id="@+id/button8"
+			android:layout_weight="1"/>
+	</LinearLayout>
+
+	
+    </LinearLayout>
+
+</ScrollView>
